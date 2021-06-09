@@ -1,0 +1,34 @@
+*{
+    transform-origin: all .3s linear;   
+}
+body{
+    text-align: center;
+    color: white;
+    background-color: rgb(12,12,35);
+}
+h1{
+    color: white;
+}
+.input-area{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 5rem;
+    background-color: inherit;
+    border: 1px solid white;
+}
+.input-area::placeholder{
+    text-align: center;
+}
+.btn{
+    padding: .5rem 2rem;
+    background-color: inherit;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
